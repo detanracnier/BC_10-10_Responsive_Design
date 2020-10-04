@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact me</title>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
+    <!-- Reset css -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <!-- bootstrap stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- custom stylings -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="fixed-top">
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="mx-auto">
+                <h1 class="navbar_header">Contact Me...</h1>
+            </div>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <!-- Wrapping navigation dropdown so I can add margins or no margins on mobile -->
+            <div id="navbar_collapse_wrapper">
+                <div class="bg-dark p-4">
+                    <a class="link_no_style" href="./index.html">
+                        <button type="button" class="btn btn-secondary btn-lg btn-block">About</button></a>
+                    <a class="link_no_style" href="./portfolio.html">
+                        <button type="button" class="btn btn-secondary btn-lg btn-block">Portfolio</button></a>
+                        <button type="button" class="btn btn-secondary btn-lg btn-block disabled">Contact</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div class="container main_content_container border-right border-left pt-3">
+        <!-- Contact me Image -->
+        <div class="row">
+            <div class="col-12">
+                <img id="email_icon" src="./images/email_icon.jpg" class="img-fluid rounded mx-auto d-block"
+                    alt="email icon">
+            </div>
+        </div>
+        <!-- Contact form -->
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Your Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Nature of inquire</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Employment offer</option>
+                        <option>Report a bug</option>
+                        <option>I just want to talk to you</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">Send</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Java script - Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

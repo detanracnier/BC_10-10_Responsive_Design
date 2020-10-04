@@ -1,0 +1,55 @@
+body {
+    background-color: #dff0f5;
+}
+
+#navbar_collapse_wrapper {
+    margin-right: 70%;
+}
+
+.navbar_header {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.link_no_style:hover {
+    text-decoration: none;
+}
+
+.main_content_container {
+    /* Margin-top to push content down to line up with navbar */
+    margin-top: 57px;
+    /* Set content container height to 100% of the page */
+    min-height: calc(100vh - 57px);
+    background-color: #ffffff;
+}
+
+#about_me_header {
+    font-family: 'Archivo', sans-serif;
+}
+
+#email_icon {
+    max-width: 100px;
+    height: auto;
+}
+
+.image_caption {
+    padding-top:5px;
+    text-align: center;
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 500px or less.
+*/
+@media screen and (max-width: 575px) {
+    #navbar_collapse_wrapper {
+        margin-right: 0;
+    }
+    #about_me_image {
+        max-width: 300px;
+    }
+    #email_icon {
+        max-width: 50px;
+    }
+}
