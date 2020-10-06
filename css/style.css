@@ -38,6 +38,31 @@ body {
     text-align: center;
 }
 
+main {
+    margin-bottom: 25px;
+}
+
+.social_media_links {
+    text-align: center;
+}
+
+.body_text {
+    text-indent: 1em;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 25px;
+    bottom: 0;
+}
+
+.copyright {
+    color: #ffffff;
+    margin-left: 20px;
+    display: inline-block;
+}
+
 /*
   These rules take effect when the browser's width
   is either 500px or less.
