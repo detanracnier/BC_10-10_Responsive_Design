@@ -10,6 +10,8 @@ git clone git@github.com:detanracnier/BC_10-10_Responsive_Portfolio.git
 Use bootstrap to create a responsive portfolio site
 
 ## Deployed sight
+[here](https://detanracnier.github.io/BC_10-10_Responsive_Portfolio/index.html)
+
 Design reflows for mobile to create a better user experiance
 ![screenshot of deployed web page](./images/readme_images/about_me_sxs.jpg)
 ![screenshot of deployed web page](./images/readme_images/contact_me_sxs.jpg)
