@@ -1,6 +1,6 @@
 # Responsive Portfolio
 * * *
-## Instatation
+## Installation
 In your terminal enter:
 git clone https://github.com/detanracnier/BC_10-10_Responsive_Portfolio.git
 or if you have set up ssh:
